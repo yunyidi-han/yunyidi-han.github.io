@@ -2,7 +2,51 @@
   color: teal;
 }
 
+.profile_pic {
+  width: 200px;
+  border-radius: 50%;
+}
+
 .smaller-image {
   width: 400px;
   border-radius: 20%;
 }
+
+body {
+  position: relative;
+}
+
+.move_bottom {
+  position: relative;
+  min-height: 200px;
+  top: 150px;
+  left: 50px;
+}
+
+.about_me_images {
+  height: 200px;
+}
+
+.carousel-inner {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+#about_me_stuff {
+  justify-content: space-around;
+}
+
+#carouselPhotos {
+  background-color: black;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+/* .item,
+img {
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid red;
+} */
