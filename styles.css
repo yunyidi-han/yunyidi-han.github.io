@@ -1,5 +1,11 @@
-.teal {
-  color: teal;
+body {
+  position: relative;
+  background-image: url(./resources/robots.jpg);
+  background-size: cover;
+}
+
+* {
+  color: cornsilk;
 }
 
 .profile_pic {
@@ -12,15 +18,33 @@
   border-radius: 20%;
 }
 
-body {
-  position: relative;
+.jumbotron {
+  background-image: url(./resources/it.jpg);
 }
 
-.move_bottom {
+.dark_text1 {
+  -webkit-text-stroke: 3px black; /* width and color */
+}
+
+.dark_text2 {
+  -webkit-text-stroke: 1px black; /* width and color */
+}
+
+hr {
+  border: 2px dashed cornsilk;
+  border-radius: 5px;
+}
+
+/* .move_bottom {
   position: relative;
   min-height: 200px;
   top: 150px;
   left: 50px;
+} */
+
+.borderinfo {
+  border: 4px groove red;
+  background-color: darkgray;
 }
 
 .about_me_images {
@@ -33,11 +57,27 @@ body {
   width: 50%;
 }
 
+.navbar-inverse .navbar-nav > .active {
+  background-color: blue;
+}
+
+/* .spaced {
+  display: flexbox;
+  justify-content: space-evenly;
+} */
+
 #about_me_stuff {
   justify-content: space-around;
 }
 
 #carouselPhotos {
+  background-color: black;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+#carouselPhotos2 {
   background-color: black;
   margin: auto;
   height: 50%;
